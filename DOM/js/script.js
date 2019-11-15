@@ -1,3 +1,6 @@
+//Variables globales (we put here the variables so it affects the whole document)
+let baliseA
+
 //On s'assure que le DOM est chargé
 window.onload = function(){
     //Ici le DOM est chargé
@@ -65,9 +68,9 @@ window.onload = function(){
 
     //Si on clique sur la balise H2 on retire les écouterus sur la balise A
     baliseH2.addEventListener("click", function(){
-        console.log("Enleves ecouteurs");
         baliseA.removeEventListener("mouseenter", debutSurvol);
         baliseA.removeEventListener("mouseleave", finSurvol);
+        console.log("Survole désactive");
     });
     
 

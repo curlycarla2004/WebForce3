@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <!--<form action="#" method = "get">
+            <p class="column col4"><label for="name">Nom:</label><input type="text" name="name" id="name" /></p>
+            <p class="column col4"><label for="email">E-mail:</label><input type="text" name="email" id="email" /></p>
+            <p class="column col4"><label for="message">Confirmer e-mail:</label><input type="text" name="cemail" id="cemail" /></p>
+            <p class="column col4"><label for="email">Mot de passe:</label><input type="text" name="mdp" id="mdp" /><input class="button" type="submit" value="Voir/masquer" /></p>
+            <p class="column col4"><label for="email">Confirmer mot de passe:</label><input type="text" name="cmdp" id="cmdp" /></p>
+            <p class="column col4"><input class="button" type="submit" value="Valider" /></p>
+        </form> -->
+        
+
+        <form action ="#" method = "get">
+            <section>
+                <label for="nom">Nom:</label>
+                <input type="text" name="nom" id="nom">
+            </section>
+
+            <section>
+                <label for="email1">E-mail:</label>
+                <input type="email1" name="email1" id="email1">
+            </section>
+
+            <section>
+                <label for="email2">Confirmer e-mail:</label>
+                <input type="email2" name="email2" id="email2">
+            </section>
+
+            <section>
+                <label for="pass1">Mot de passe:</label>
+                <input type="password" name="pass1" id="pass1">
+                <button type="button" id="voir">Voir/masquer</button>
+            </section>
+
+            <section>
+                <label for="pass2">Confirmer mot de passe:</label>
+                <input type="password" name="pass2" id="pass2">
+            </section>
+
+            <section>
+                <button id="valider">Valider</button>
+            </section>
+
+        </form>
+
+        <p>Validation du formulaire : </p>
+        <ul>
+            <li>Le nom doit faire au moins 5 caractères</li>
+            <li>Les 2 emails doivent être identiques</li>
+            <li>Les 2 mots de passe doivent être identiques</li>
+        </ul>
+        <p>Si erreur, bordure rouge, si ok, bordure verte</p>
+        <p>Le button Valider devrait apparait uniquement si tout les champs sont deja vert</p>
+        <p>de que je quitte une champs il faut que ca blur</p>
+        <!--Fichiers JS-->
+        <script src="js/formulaire.js"></script>
+    </body>
+</html>
