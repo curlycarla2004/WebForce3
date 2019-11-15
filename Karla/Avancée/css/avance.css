@@ -1,0 +1,70 @@
+/*On va mettre le 1er li en gras*/
+ul li:first-child{/*first-child because it is a first child of the ul*/
+    font-weight: bold;
+}
+
+/*On met le dernier li en bleu*/
+ul li:last-child{
+    color: blue;
+}
+
+/*On met le 3eme li en rouge*/
+ul li:nth-child(3){ /*nth-child plus in ()put the number it s called pseudo class, we can use anywhere*/
+    color:red;
+}
+
+/*Colorer les liens en fonction du contenu de l'attribut href*/
+a[href*=facebook]{/*that way we do not need to use id or class  */
+    color: #4267b2;
+    text-decoration: none; /*delete the surlignement on the link*/
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, #4267b2, white );
+    border-image-slice: 1;
+    margin-bottom: -5px;
+    line-height: 10px;
+    padding-bottom: 0px;
+}
+
+a[href*=twitter]{
+    color: #00acee;
+    text-decoration: none;
+    /*border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, #6699FF, white );
+    border-image-slice: 1;
+    margin-bottom: -5px;
+    line-height: 10px;
+    padding-bottom: 0px;*/
+    position:relative;
+}
+
+/*On "injecte" les mots "Liens vers" dans le liens- some people add only once: but rule is two times ::*/
+a::before{
+    content: 'Liens vers   ';
+}
+
+/*unicode table www.nicolas-hoffman.com
+Ajouter ⧉ aprés les liens dont le target est à "_blank"*/
+/*with :not we can do negations avec elements we dont want to be affected*/
+a[target='_blank']::after {
+    content: '\29C9';
+    vertical-align: super ; /*dont put size because it will move up if bigger screen*/
+    font-size: 0.6em;
+}
+/*ajouter un element  avec degrade sur twitter*/
+a[href*=twitter]::after{
+    content:'';
+    height: 2px;
+    background: -webkit-linear-gradient(left, #00acee, white);
+    /*For Chrome 25 and Safari 6, iOS 6.1, Android 4.3*/
+    background: -moz-linear-gradient(left, #00acee, white);
+    /*For Firefox (3.6 to 15)*/
+    background: -o-linear-gradient(left, #00acee, white);
+    /*For old Opera(11.1 to 12.0)*/
+    background: linear-gradient(to right, #00acee, white);
+    /*Standard syntax; must be last*/
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0; 
+}
+

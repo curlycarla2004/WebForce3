@@ -1,0 +1,121 @@
+body{
+    padding: 0 15px;
+    width: 300px
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+  background: url("../images/blue.jpg") no-repeat center center fixed; 
+    background-size: auto;
+  }
+
+  h1{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px ;
+  }
+  
+  .my-element{
+    display:flex;
+    justify-content: center; 
+    }
+  
+  
+  .my-element, .my-list{
+    background: transparent;
+    padding: 60px;
+  }
+  .my-element img{
+    width: 650px;
+    height: 150px
+  }
+  
+  article{
+    padding: 40px;
+    background: rgb(207, 140, 140); 
+    max-width:120px;
+  }
+  
+  article:nth-child(odd){
+    background: rgb(231, 213, 213);
+  }
+  
+  .my-list{
+    display:inline-block;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .my-list article:nth-child{
+    background-color:#f00;
+    align-self:center;
+  }
+  
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  background-position: inherit;
+  opacity: 80%;
+
+}
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change color on hover */
+.topnav a:hover {
+  background-color: white;
+  color: black;
+  }
+
+/*contact */
+#contact {
+  display:flex;
+  justify-content: space-between;
+}
+
+/*telephone and email*/
+  a[href^="tel:+33652629472"] {
+    color: black;
+    text-decoration: none;
+    margin-right: 0.8em;
+    }
+
+    a[href^="mailto:gergelovakarla@aol.com"] {
+    color:black;
+    text-decoration: none;
+    margin-right: 0.8em;
+    /* margin-left: 850px; */
+    }
+
+.nature{
+  justify-content: center;
+  display: flex;
+}
+.footer{
+  justify-content: center;
+  display: flex;
+  color: white;
+}
+
+.googlemaps{
+  justify-content:center;
+  display:flex;
+}
+
+.icofont-linkedin{
+  color:black;
+}
+
+.video{
+  justify-content:center;
+  font-display:flex;
+}

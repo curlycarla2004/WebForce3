@@ -1,0 +1,50 @@
+#carre {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(172, 6, 172);
+}
+
+/*Les transformations*/
+/*On déplacer notre carré de 50px vers la droite*/
+#carre {
+    transform: translateX(50px);
+}
+
+/*On tourne notre carré de 52 degrés au survol et on l'agrandit x2*/
+#carre:hover {
+    transform: rotateZ(52deg) scale(2);
+}
+
+/*Les transitions*/
+/*Le texte tourne de 90 degrés en 10 secondes*/
+#tourne{
+    /*if you want make the hover to go back to its position than you put it before and add transition plus time*/
+    transition: 5s;
+}
+#tourne:hover {
+    transform: rotateZ(30deg);
+    transition: 5s;
+}
+
+/*Les Animations*/
+/*Le fond du texte passe du rouge au vert puis au bleu et reprend toutes les 10s*/
+@keyframes couleurs-fond{
+    0%{/* =from and could be 0% and 100% at the same line if same color and separate by ,*/
+        background-color: red;
+    }
+    33%{
+        background-color: green;
+    }
+    66%{
+        background-color: blue;
+        transform: rotateZ(30deg);
+    }
+    100%{/* =to*/
+        background-color: red;
+    } /*you always need to have 0% and 100%}*/
+}
+
+#couleurs{
+    animation: couleurs-fond 3s infinite;
+         
+}

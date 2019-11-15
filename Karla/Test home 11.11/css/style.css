@@ -1,0 +1,57 @@
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #5ec79e;
+    color: white !important; 
+    }
+
+.navbar-nav .active{
+      background-color: #5ec79e;
+      color:white !important;
+    
+  }
+.nav-link{
+    color:  rgb(80, 78, 78);
+    
+}
+
+.navbar-light .navbar-nav .active > .nav-link{
+      color: white;
+  }
+
+.navbar-nav > li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btn{
+    background-color: #5ec79e !important;
+    }
+
+nav + header{
+    background-color:#f3f3f3;
+    color: rgb(90, 87, 87);
+    }
+
+#first {
+    background-color: #5ec79e;
+    color: white;
+    }
+
+#second{
+    background-color: #887dc2;
+}
+.form-group{
+    padding: 15px;
+    margin-top: 27px;
+    margin-bottom: 27px;
+    }
+
+#color{
+    background-color:#d5d0f5 !important;
+    border: 1px solid #887dc2;
+}
+
+#home{
+    color:white;
+}
+

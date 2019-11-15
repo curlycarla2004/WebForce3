@@ -1,0 +1,12 @@
+.bio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bio > section{
+    padding: 15px;
+    width: 70%;
+    background-color: rgb(106, 211, 243);
+    opacity: 80%;
+}

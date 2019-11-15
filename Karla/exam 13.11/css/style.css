@@ -1,0 +1,74 @@
+html, body {
+    background:black;
+    
+}
+
+/*align buttons under images*/
+.button{
+    color:black;
+    text-align: left;
+    padding-left: 65px;
+    width: 900px !important;
+    height:50px;
+}
+/*color of buttons pour voir la gant*/
+#black{
+    background-color: black;
+}
+
+/*shadows behind images*/
+.img-thumbnail{
+    box-shadow: 0 0 8px black;
+}
+/*prix de gants en haut a droite*/
+#yellow{
+    color:#EAA001; 
+    font-weight: bold;
+    background-color: rgb(61, 60, 60);
+    position:absolute;
+    top:5px;
+    left:400px;
+ 
+}
+
+/*add padding on the bottom of the body section*/
+#second{
+    padding-bottom:100px;
+}
+
+/*size of text in footer*/
+#footer{
+    font-size: 10px;   
+    
+}
+
+/*vertical line next to each item in menu*/
+.navbar-nav>li{
+    border-left: 2px solid #000;
+    border-image: linear-gradient(to top, black, white );
+    border-image-slice: 1;
+    line-height: 15px;
+    padding-bottom: 0px;
+  }
+  
+  /*vertical line next to logo*/
+  #vertical{
+    border-left: 4px solid #EAA001;
+    border-image: linear-gradient(to top, #EAA001, white );
+    border-image-slice: 1;
+    line-height: 15px;
+    padding-bottom: 0px;
+    margin-bottom: -10px;
+    padding-left: 30px;
+  }
+  
+.price{
+    color: #EAA001;
+    font-weight: bold;
+    font-size:30px;
+    
+}
+
+#compte{
+    border:solid;
+}

@@ -1,0 +1,16 @@
+.footer {
+    background: transparent;
+    height: 200px;
+    margin-left: 360px ;
+    margin-right:auto;
+    width: auto;
+    height:auto; 
+    text-align:center;
+    padding:0px;
+    bottom:0; 
+    display:flex;
+    position: fixed;
+    font-style: oblique;
+    font-size: 20px;
+    color: white;
+        }

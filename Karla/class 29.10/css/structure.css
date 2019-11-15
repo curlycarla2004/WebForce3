@@ -1,0 +1,115 @@
+html { 
+    background: url(images/lights.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+body {
+    background-color:none ;
+    font color: red;
+    font-size:30px;
+    margin: 120px;
+}
+
+/*my styles for a main*/
+main {
+    background-color: none;
+    
+}
+
+section {
+    background-color: none;
+    font color: white;
+}
+
+p {
+    color:rgb(1, 1, 14);
+}
+
+article p {
+    font-size: 20px;
+    text-align: center;
+    margin: 15px;
+    padding:30px;
+}
+
+footer {
+    background-color: silver;
+    text-align: justify;
+    font-size: 20px;
+    margin:120px;
+    
+}
+
+.logo {
+    max-width:50px;
+    margin:15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  header {text-align:center;
+        font color: green;
+}
+
+.disp {
+    background-color: green;
+    display:inline ;
+    width:190px;
+}
+
+#my-second-article{
+    background: white;
+}
+
+/*selecteurs child*/
+article{
+    padding: 30px;
+}
+
+article h2{
+    font-family: 'Liu Jian Mao Cao', cursive;
+}
+article:nth-child(odd){
+    background-color:pink;
+}
+
+article:nth-child(even){
+    background-color:pink;
+}
+
+article: last-child{
+    border: none;
+}
+
+article:hover {
+    font-weight:bold;
+    cursor: pointer;
+}
+
+  
