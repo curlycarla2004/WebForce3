@@ -31,6 +31,7 @@ window.onload = function(){
     //On ajoute la balise H2 au conteneur
     conteneur.appendChild(baliseH2);
 
+    console.log(baliseH2);
 
     //On ajoute une balise A
     let baliseA = document.createElement("a");
@@ -47,19 +48,41 @@ window.onload = function(){
     //On ajoute la balise(enfant) au conteneur
     conteneur.appendChild(baliseA);
 
+    //while (!document.getElementsByTagName('h1')[0].remove()) {} to remove h1 in html
     
-    console.log(baliseH2);
+   //Remove h1 in html
+   titre.parentNode.removeChild(titre);
 
+   //https://developer.mozilla.org/en-US/docs/Web/Events
+  
+    //On va écouter lévénement mouseenter sur la balise A
+    baliseA.addEventListener("mouseenter", debutSurvol = function(){
+        console.log("La souris survole le lien");     
+    });//mouseenter,function nous ne pouvons pas arretez il faut la nommer
 
+    //On va écouter l'événement mouseleave sur la balise A - BENOIT PREFERS!!
+    baliseA.addEventListener("mouseleave", finSurvol);
 
-
-
-
+    //Si on clique sur la balise H2 on retire les écouterus sur la balise A
+    baliseH2.addEventListener("click", function(){
+        console.log("Enleves ecouteurs");
+        baliseA.removeEventListener("mouseenter", debutSurvol);
+        baliseA.removeEventListener("mouseleave", finSurvol);
+    });
+    
 
 }//window.onload always but this on the site and the rest is in between
 
+//to put it here because if we have finSurvol multiple times i can only do it once
 
+/**
+ * Cette fonction est exécutée au survol de la balise A
+ */
+function finSurvol(){
+    console.log("Le souris ne survole plus le lien");
+}
 
+//si je click sur h2 ca doit enlever les ecouters de balise
 
 
 //tag=balises in french
