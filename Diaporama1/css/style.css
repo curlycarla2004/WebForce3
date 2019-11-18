@@ -1,0 +1,27 @@
+#diaporama {
+    margin: auto;
+    width: 80%;
+    position: relative;
+  }
+
+
+#image {
+    width:100%; 
+}
+
+#fleche-gauche, #fleche-droite {
+    font-size: 5em;
+    color: white;
+    position: absolute;
+    top:50%;
+    font-weight: bold;
+    transform: translateY(-50%);
+}
+
+#fleche-droite{
+    right: 10px;
+}
+
+#fleche-gauche{
+    left: 10px;
+}
