@@ -100,7 +100,6 @@ function togglePass(){
     //pass1.type = (pass1.type == "password") ? "text"  : "password";     its the same thing just in one line
 }
 
-<<<<<<< HEAD
 /**
  * Cette fonction affiche ou masque le bouton valider
  */
@@ -112,7 +111,3 @@ function afficherButton(){
         valider.style.display = "none";
     }
 }
-=======
-
-}//Window onload
->>>>>>> a037db599f5af0028fb99aef1ae41bbbf54525cc
