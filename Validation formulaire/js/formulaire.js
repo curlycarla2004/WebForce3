@@ -22,7 +22,7 @@ window.onload = function(){
     
 }//window.onload
   
-/**
+/**if
  * 4.Cette fonction vérifie la longeur de la valeur saisie dans le champs nom
  */
 function verifyNom(){
