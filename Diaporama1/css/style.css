@@ -44,3 +44,21 @@
     transform: translate(-50%, -50%);
 }
     
+#red-circle{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    position:absolute;
+}
+
+#fini{
+    display: none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-weight: bold;
+}
