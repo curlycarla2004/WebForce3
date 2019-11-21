@@ -4,10 +4,30 @@
 
 //$(window).scrollTop()
 
-$(window).scroll(function() {
-    if($(window).scrollTop() + $(window).height(0) >= $(document).height(0)) {
-      console.log("i am at the top ")
-    }
-  });
+$(function(){
+  $(window).on("scroll", defile);
+  $("#hidden").hide();
+});
 
-  //https://nouvelle-techno.fr/ same bar
+function defile(){
+  let hauteurDoc = $(document).height();
+  let hauteurFenetre = $(window).height();
+  let hauteurCourante = $(window).scrollTop();
+
+  if(hauteurCourante == 0){
+    console.log("je suis en haut");
+  }else{
+    if(hauteurCourante == hauteurDoc - hauteurFenetre){
+      console.log("Je suis en bas");
+      $("#hidden").show();
+    }
+  }
+  //Barre de progression
+  //Hauteur du document, Position actuelle, Hauteur de la fenetre et largeur de la fenetre
+  let largeurFenetre = $(window).width();
+  let largeurBarre = hauteurCourante / (hauteurDoc - hauteurFenetre) * largeurFenetre;  
+
+  $("#progress").css("width", largeurBarre);  //+"%" car si on precise pas c'est des pixels
+}
+
+

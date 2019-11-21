@@ -1,0 +1,9 @@
+#progress{
+	background-color: rgb(233, 129, 146);
+	height: 3px;
+	width: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999; 
+}

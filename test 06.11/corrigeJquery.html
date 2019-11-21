@@ -60,10 +60,43 @@
                 </section><!--/col-5-->
 
                 <section class="col-7">
-                    <figure class="img-thumbnail">
-                        <img class="img-fluid" src="../test 06.11/images/basic-pic2.jpg"  alt="Beach" style="width:100%">
-                        <figcaption>El Arco Cabo Mexico. </figcaption>
-                    </figure>
+                        
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                        <figure class="img-thumbnail">
+                                                <img class="img-fluid" src="../test 06.11/images/basic-pic2.jpg"  alt="Beach" style="width:100%">
+                                                <figcaption>El Arco Cabo Mexico. </figcaption>
+                                            </figure>
+                                  </div>
+                                  <div class="carousel-item"> <!--change items here only-->
+                                        <figure class="img-thumbnail">
+                                                <img class="img-fluid" src="../test 06.11/images/basic-pic1.jpg"  alt="Beach" style="width:100%">
+                                                <figcaption>El Arco Cabo Mexico. </figcaption>
+                                            </figure>
+                                  </div>
+                                  <div class="carousel-item">
+                                        <figure class="img-thumbnail">
+                                                <img class="img-fluid" src="../test 06.11/images/basic-pic3.jpg"  alt="Beach" style="width:100%">
+                                                <figcaption>El Arco Cabo Mexico. </figcaption>
+                                            </figure>
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+                
                 </section><!--/col-7-->
 
             </div><!--/row-->
@@ -134,6 +167,11 @@
             </div>
         </div><!--/container-->   
     </footer>
+
+    <!--Fichiers JS-->
+    <script src="js/jquery-3.4.1.js"></script> <!--jquery is always first before bootstrap!!!!!-->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/carousel.js"></script>
 
 </body> 
 

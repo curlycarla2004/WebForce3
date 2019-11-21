@@ -1,0 +1,24 @@
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.countdown {
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+.countdown .timer {
+  display: inline-block;
+  padding: 10px;
+  background: rgb(56, 56, 52);
+  margin: 0;
+  color: white;
+  min-width: 2.6rem;
+  margin-left: 13px;
+}
+.countdown span[class*="timeRef"] {
+    background: rgb(129, 205, 235);
+    margin-left: 0;
+    color: black;
+}
