@@ -1,0 +1,9 @@
+#tete{
+    background-color: #7885A5;
+    transition:1s;
+}
+
+.bg-dark, footer, #section2:hover #tete{
+    background-color:#061339 !important;
+    transition: 1s;
+}

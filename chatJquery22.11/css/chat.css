@@ -1,0 +1,45 @@
+footer{
+    background-color:#061339;
+}
+
+.navbar{
+    background-color:#061339 !important;
+}
+
+header{
+    background-image: url(../images/background.jpg);
+}
+
+h1, h2, a, .navbar-brand{
+    font-family: 'Merienda', cursive;
+    color:#2F4073;
+}
+
+h1{
+    text-shadow: 1px 1px black; 
+    color:white;
+}
+
+#tete{
+    background-color:#7885A5 ;
+}
+
+#chattext{
+background-color: #dddddd !important;
+}
+
+#chattext:hover #tete{
+    Background-color: #061339;
+    transition: background-color 2s, transform 2s;
+   
+}
+.form-group{
+    padding: 10px;
+}
+
+h3{
+    font-family: 'Merienda', cursive; 
+    color:#061339;
+    padding-bottom:0.5em ;
+}
+/*27lignes/

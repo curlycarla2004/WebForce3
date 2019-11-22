@@ -1,0 +1,170 @@
+// Import des variables
+@import "variables";
+
+// Import des ressources CSS
+@import "../css/bootstrap.css";
+
+// Sélecteurs
+body{
+	background-color: $grey2;
+}
+
+/**
+* Barre de navigation supérieure
+*/
+.navbar{
+	&.bg-light{
+		background-color: $lightgrey1 !important;
+	}
+	.navbar-brand{
+		position: relative;
+		top: 45px;
+		left: 0;
+		&::before{
+			content: "";
+			background: linear-gradient(to bottom, $lightgrey1, $orange);
+			position: absolute;
+			width: 2px;
+			height: 100%;
+			left: -15px;
+			top: -20px;
+		}
+		span{
+			color: $orange;
+		}
+	}
+	#navbarSupportedContent{
+		margin-top: 140px;
+	}
+	> div{
+		position: relative;	
+		section{
+			position: absolute;
+			right: 15px;
+			div{
+				background-color: $lightgrey2;
+				padding: 10px;
+				border: 1px solid $grey1;
+				border-radius: 5px;
+			}
+		}
+	}
+}
+
+/**
+* Entête
+*/
+header{
+	img{
+		box-shadow: 0 17px 10px -6px $grey1;
+	}
+}
+
+/**
+* Partie principale
+*/
+main{
+	background-color: $lightgrey2;
+	figure{
+		margin: 50px;
+		margin-bottom: 0;
+		position: relative;
+		box-shadow: 0 0 5px 2px $grey1;
+		figcaption{
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			text-align: center;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+		span{
+			position: absolute;
+			top: 35px;
+			right: -25px;
+			color: $orange;
+			font-size: 2em;
+			font-weight: bold;
+			padding: 5px;
+			background: rgb(70,70,70);
+			border-right: 6px solid $grey1;
+			border-bottom: 6px solid $grey1;
+			border-left: 6px solid $grey2;
+			border-top:  6px solid $grey2;
+			box-shadow: 0 0 5px 2px $grey1;
+			border-radius: 5px;
+		}
+		+ p{
+			&::after{
+				content: "";
+				background: linear-gradient(to right, $lightgrey1, $grey1);
+				position: absolute;
+				width: 35%;
+				height: 2px;
+				right: 65px;
+				bottom: 0;
+			}
+			span{
+				margin: 0 25px;
+				font-size: 1.5em;
+				font-weight: bold;
+				&:nth-child(2){
+					text-decoration: line-through;
+				}
+				&:last-child{
+					color: $orange;
+					font-size: 2em;
+				}
+			}
+		}
+	}
+}
+
+/**
+* Barre de navigation inférieure
+*/
+#bottom-nav{
+	border-top: 20px solid $grey1;
+	.container{
+		background-color: $lightgrey2;
+		height: 30px;
+	}
+	#navbar2{
+		margin-top: 30px;
+		ul{
+			background-color: $lightgrey2;
+			padding: 10px;
+			border: 1px solid $grey1;
+			border-radius: 0 0 5px 5px;
+			li{
+				margin: 0 10px;
+				position: relative;
+				&:not(:last-child){
+					&::after{
+						content: "";
+						background-color: $grey1;
+						width: 5px;
+						height: 5px;
+						position: absolute;
+						right: -15px;
+						top: 50%;				
+					}
+				}
+			}
+		}
+	}
+}
+
+/**
+* Pied de page
+*/
+footer{
+	background-color: $grey1;
+	font-size: 0.6em;
+	.col-12{
+		font-size: 0.8rem;
+		img{
+			margin: auto 25px;
+		}
+	}
+}
