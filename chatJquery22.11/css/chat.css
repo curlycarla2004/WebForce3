@@ -28,11 +28,11 @@ h1{
 background-color: #dddddd !important;
 }
 
-#chattext:hover #tete{
+/*#chattext:hover #tete{
     Background-color: #061339;
     transition: background-color 2s, transform 2s;
-   
-}
+}*/
+
 .form-group{
     padding: 10px;
 }

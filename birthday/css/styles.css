@@ -1,0 +1,14 @@
+html,body{
+    background-color: #7451eb;
+}
+
+button{
+    padding: 20px;
+    border: solid black;
+    background-color: yellow;
+    margin-top: 100px;
+    left: 50%;
+    top:50%;
+    
+  
+}
