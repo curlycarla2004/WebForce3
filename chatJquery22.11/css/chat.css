@@ -1,3 +1,7 @@
+body{
+    font-size:12px;
+}
+
 footer{
     background-color:#061339;
 }
@@ -16,19 +20,29 @@ h1, h2, a, .navbar-brand{
 }
 
 h1{
+    font-size: 3em;
     text-shadow: 1px 1px black; 
     color:white;
 }
 
-#tete{
+h2{
+    font-size: 2em;
+}
+
+p{
+    font-size: 1.1em;
+}
+
+#teteDeChat{
     background-color:#7885A5 ;
+    transition: 1s;
 }
 
 #chattext{
 background-color: #dddddd !important;
 }
 
-/*#chattext:hover #tete{
+#chattext:hover #teteDeChat{
     Background-color: #061339;
     transition: background-color 2s, transform 2s;
 }*/
@@ -41,5 +55,15 @@ h3{
     font-family: 'Merienda', cursive; 
     color:#061339;
     padding-bottom:0.5em ;
+}
+#envoye{
+    display: none;
+}
+
+@media screen and (min-width: 1200px){
+    /*it is better to use em size or use everything except px to be responsive*/
+    body{
+        font-size: 16px;
+    }
 }
 /*27lignes/

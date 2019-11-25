@@ -1,0 +1,58 @@
+#red, #redHome {
+    color: #fd502e;
+}
+
+#colorfulContainer{
+    background-color: #fd502e;
+
+}
+
+button{
+    background-color: white !important;
+    color: black !important;
+    border-radius: 100px !important;
+}
+
+#man2, #man3, #man4, #man42 {
+    border-radius: 15%;
+}
+
+#footerDark{
+    background-color: black !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:white !important;
+}
+
+h5{
+    padding-bottom: 30px;
+}
+
+#one, #two, #three, #four, #five{
+    border-bottom: 1px solid white;
+    padding-bottom:18px;
+}
+
+h4{
+    padding-top:50px;
+}
+
+#icons{
+ background-color: #fd502e;
+ border-radius: 50%;
+ border: 1x solid grey;
+ padding:25px;
+ color: white;
+ font-size: 28px;
+}
+
+#iconsOther{
+    background-color: #fd502e;
+    border-radius: 50%;
+    border: 1x solid grey;
+    padding:25px;
+    color: white;
+    font-size: 28px;
+    float: left;
+}
