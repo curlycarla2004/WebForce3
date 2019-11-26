@@ -16,61 +16,85 @@
     </head>
 
     <body> 
-        <nav class="navbar navbar-expand navbar-light bg-dark">
-                <a class="navbar-brand" href="#"></a>
-                    <img src="../Project personel/images/logo1.PNG" id="logo" alt="My logo" class="src">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                  
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="home.html"><i class="la la-home"></i></i>Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html"><i class="la la-user-circle"></i>About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html"><i class="la la-file-alt"></i>Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html"><i class="la la-paper-plane"></i>Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            
+        <!--Navbar with logo-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"></a>
+                <img src="../Project personel/images/logo1.PNG" id="logo" alt="My logo" class="src">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+                
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="home.html"><i class="la la-home"></i></i>Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"><i class="la la-user-circle"></i>About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html"><i class="la la-file-alt"></i>Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"><i class="la la-paper-plane"></i>Contact</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
-        
-        <section class="container-fluid py-5">
-                <div class="container">
-                    <div class="container py-5" id="button">
-                        <div class="row">
-                            <section class="col-12">
-                            </section>
-                        </div>
-                    </div>
-                </div>
-            </section>  
 
-        <section class="container-fluid py-5">
-            <div class="container">
-                <div class="container py-5" id="button">
-                    <div class="row">
-                        <section class="col-12">
-                            <a href="home.html" class="btn btn-dark btn-lg" role="button">WELCOME TO MY WEBSITE</a>
-                        </section>
+        
+     <!--Header-->
+        <header>
+            <div class="overlay"></div>
+            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                <source src="../Project personel/video/coverr-mountain-lake-video.mp4" type="video/mp4">
+            </video>
+            <div class="container h-100">
+                <div class="d-flex h-100 text-center align-items-center">
+                    <div class="w-100 text-white">
+                        <h1 class="display-3">Karla Gergelova</h1>
+                        <p class="lead mb-0">Développeur Web et Web Mobile</p>
                     </div>
                 </div>
             </div>
-        </section>  
-        
-    
-        <footer>
-            <div class="footer">
-                <p>Copyright © 2019 All rights reserved.</p>
-            </div>    
+        </header>
+
+        <section class="my-5">
+            <div class="container">
+                <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <p>The HTML5 video element uses an mp4 video as a source. Change the source video to add in your own background! The header text is vertically centered using flex utilities that are build into Bootstrap 4.</p>
+                    <p>The overlay color can be changed by changing the <code>background-color</code> of the <code>.overlay</code> class in the CSS.</p>
+                    <p>Set the mobile fallback image in the CSS by changing the background image of the header element within the media query at the bottom of the CSS snippet.</p>
+                    <p class="mb-0">
+                    Created by <a href="https://startbootstrap.com">Start Bootstrap</a>
+                    </p>
+                </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--Footer-->
+        <footer class="container-fluid pt-3 pb-1 text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>Made with <span><img src="images/icons8-aime-rempli-30.png" alt="heart" class="scr"></span> and <span><img src="images/icons8-barre-de-chocolat-30.png" alt="choco" class="src"></span> par Karla Gergelova</p>
+                    </div><!--/col-->
+                    <div class="col-lg-12">
+                        <p>© 2019 tous droits réservés</p>
+                    </div><!--/col-->
+                </div><!--/row-->
+            </div><!--/container-->
         </footer>
+
+
+        <!--Fichiers JS-->
+        <script src="js/jquery-3.4.1.js"></script> 
+        <script src="js/bootstrap.js"></script> 
+        <script src="js/script.js"></script>  
     </body>
 
 

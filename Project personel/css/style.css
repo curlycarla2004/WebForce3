@@ -1,10 +1,4 @@
-html, body {
-  /*padding: 0px;
-  margin: 0px;*/
-  background:url("../images/riccardo-chiarini-2VDa8bnLM8c-unsplash.jpg")no-repeat center center fixed;
-  background-size: cover;
-}
-.navbar a:hover {
+/*.navbar a:hover {
   background-color: white;
   color: black !important;
   }
@@ -22,34 +16,22 @@ html, body {
 color: white;
 display: inline-block;
 }
+*/
+.navbar-light .navbar-nav .nav-link{
+  color: white !important;
+}
 
 .navbar{
-  background-color:black !important;
+background-color:black !important;
 }
 
-h1, h2{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-weight: bolder;
-    font-size: 95px;
-    text-shadow: white 2px 5px;
-    color:black;
-    font-family: 'Amatic SC', cursive;
+.navbar-light .navbar-toggler{
+  border-color:white;
 }
 
-h3{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: black;
-  font-weight: bolder;
-  font-size: 35px; 
-  text-shadow: white 1px 1px;
+button{
+  background-color: white !important;
 }
-
 #logo {
   width: 45px;
   height: 45px;
@@ -60,67 +42,53 @@ h3{
   max-height: 50%;
 }
 
-header{
-    margin-top: 200px;
-}
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+footer{
   background-color: black;
-  color: white;
-  text-align: center;
+  color:white;
 }
 
-#button{
-  text-align: center;
-
-}
-
-.btn-dark{
+header {
+  position: relative;
   background-color: black;
-  border-color: black;
-  width: 300px !important;
-  height: 60px !important;
-
-}
-
-h4{
-  text-align: center;
-  font-weight: bolder;
-  font-size: 25px; 
-  text-shadow: black 1px 1px;
-}
-
-#about{
-  background-color: black !important;
-  color: white;
-}
-
-#smoke{
+  height: 75vh;
+  min-height: 25rem;
   width: 100%;
+  overflow: hidden;
 }
 
-.centered {
-  width: auto;
+header video {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  color: white ;
-  font-weight: bold;
-  text-align: center;
-  font-family: 'Amatic SC', cursive;
-  font-size: 40px;
-  text-shadow: black 1px 1px;
-}
-#linkedin{
-  color: black;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-#header{
-  margin-top: 100px;
+header .container {
+  position: relative;
+  z-index: 2;
 }
 
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
