@@ -1,0 +1,64 @@
+
+
+.diaporama {
+    height: 63vh;
+    min-height: 500px;
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#bold{
+    font-weight: bold !important;
+    font-size: 3em;
+}
+
+#buttonPrix{
+    border: 1px solid black;
+}
+
+#lines{
+    border-bottom: 2px solid rgb(224, 210, 210);   
+}
+
+#bar{
+    background: rgb(175, 169, 169);
+    opacity: 0.9;
+    padding: 0.5em;
+}
+
+#arrowDown{
+    text-align:right;
+}
+
+.lead{
+    padding-bottom:300px;
+}
+
+#buttonAdresse{
+    width:17em;
+    height:37px;
+}
+
+#arrowDown{
+    margin-left:5em;
+}
+
+#resultat{
+    padding-top:16em;
+}
+
+#arrows{
+    color: black;
+    font-size: 3em;
+    padding-left:100px;
+    padding-right: 100px;
+}
+
+#barValider{
+    column-fill: 100%;
+    background: rgb(175, 169, 169);
+    opacity: 0.9;
+    padding: 0.5em;
+}
