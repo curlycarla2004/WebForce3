@@ -12,33 +12,36 @@
         <link rel="stylesheet" href="icons8/css/line-awesome.css">
         <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="css/style.css">
+        
 
     </head>
 
     <body> 
         <!--Navbar with logo-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"></a>
-                <img src="../Project personel/images/logo1.PNG" id="logo" alt="My logo" class="src">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-                
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="home.html"><i class="la la-home"></i></i>Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html"><i class="la la-user-circle"></i>About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html"><i class="la la-file-alt"></i>Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html"><i class="la la-paper-plane"></i>Contact</a>
-                    </li>
-                </ul>
+            <div class="container">
+                <a class="navbar-brand" href="#"></a>
+                    <img src="../Project personel/images/logo1.PNG" id="logo" alt="My logo" class="src">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="home.html"><i class="la la-home"></i></i>Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html"><i class="la la-user-circle"></i>About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html"><i class="la la-file-alt"></i>Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html"><i class="la la-paper-plane"></i>Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
@@ -47,7 +50,7 @@
         <header>
             <div class="overlay"></div>
             <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-                <source src="../Project personel/video/coverr-mountain-lake-video.mp4" type="video/mp4">
+                <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
             </video>
             <div class="container h-100">
                 <div class="d-flex h-100 text-center align-items-center">
@@ -59,21 +62,51 @@
             </div>
         </header>
 
-        <section class="my-5">
-            <div class="container">
-                <div class="row">
-                <div class="col-md-8 mx-auto">
-                    <p>The HTML5 video element uses an mp4 video as a source. Change the source video to add in your own background! The header text is vertically centered using flex utilities that are build into Bootstrap 4.</p>
-                    <p>The overlay color can be changed by changing the <code>background-color</code> of the <code>.overlay</code> class in the CSS.</p>
-                    <p>Set the mobile fallback image in the CSS by changing the background image of the header element within the media query at the bottom of the CSS snippet.</p>
-                    <p class="mb-0">
-                    Created by <a href="https://startbootstrap.com">Start Bootstrap</a>
-                    </p>
+        <section id="portfolio">
+            <div class="container py-5">
+                <div class="row text-center">
+                    <section class="col-12 text-center">
+                        <h2>Portfolio</h2>
+                        <p>Quelques projets sur lesquels j'ai travaillé.</p>
+                    </section>
                 </div>
+                <div class="row text-center py-5">
+                    <section class="col-4 border border-dark py-3">
+                        <img src="images/jesus-kiteque-wn-KYaHwcis-unsplash.jpg" alt="" class="src" width="50%">
+                    </section>
+                    <section class="col-4 border border-dark py-3">
+                        <img src="images/inspirational-motivational-quotes-6-1.jpg" alt="" class="src" width="50%">
+                    </section>
+                    <section class="col-4 border border-dark py-3">
+                        <img src="images/inspirational-motivational-quotes-6-1.jpg" alt="" class="src" width="50%">
+                    </section>
+                    <section class="col-4 border border-dark py-3">
+                        <img src="images/jesus-kiteque-wn-KYaHwcis-unsplash.jpg" alt="" class="src" width="50%">
+                    </section>
+                    <section class="col-4 border border-dark py-3">
+                        <img src="images/inspirational-motivational-quotes-6-1.jpg" alt="" class="src" width="50%">
+                    </section>
+                    <section class="col-4 border border-dark py-3">
+                        <img src="images/smoke.jpg" alt="" class="src" width="50%">
+                    </section>
                 </div>
             </div>
         </section>
 
+
+
+
+        
+            <div class="container-fluid my-5">
+                <div class="container">
+                    <div class="row">
+                    <div class="col-md-8 mx-auto">
+                        <p></p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
         <!--Footer-->

@@ -4,14 +4,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Document</title>
+        <title>Multi website</title>
 
-        <link href="fontawesome-free-5.11.2-desktop/css/fontawesome.css" rel="stylesheet">
-        <link href="fontawesome-free-5.11.2-desktop/css/brands.css" rel="stylesheet">
-        <link href="fontawesome-free-5.11.2-desktop/css/solid.css" rel="stylesheet">
 
         <!--Fichiers CSS-->
         <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/all.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
 
@@ -47,7 +45,7 @@
         </nav>
 
         <!--Caroussel-->
-        <section class="container-fluid">
+        <section class="container-fluid px-0"> <!--take of automatic padding left and right-->
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" id="slide" data-slide-to="0" class="active"></li>
@@ -65,11 +63,11 @@
                             <img src="images/3.jpg" class="d-block w-100" alt="interview">
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" id="next">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <a class="carousel-control-next" id="next" href="#carouselExampleIndicators" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                     </a>
@@ -91,19 +89,19 @@
         <!-- 4 columns-->
         <section class="container-fluid py-5">
                 <section class= "row">
-                    <div class="col-lg-3 order-lg-4 text-center">
+                    <div class="col-lg-3 order-lg-1 text-center">
                         <i class="fas fa-cogs" id="icons"></i>
                         <p id="paddingTop">CREATIVE SOLUTIONS</p>
                     </div>
-                    <div class="col-lg-3 order-lg-3 text-center">
+                    <div class="col-lg-3 order-lg-2 text-center">
                         <i class="fas fa-leaf" id="icons"></i>
                         <p id="paddingTop">CREATIVE SOLUTIONS</p>
                     </div>
-                    <div class="col-lg-3 order-lg-2 text-center">
-                        <i class="fas fa-heart" id="icons"></i>
+                    <div class="col-lg-3 order-lg-3 text-center">
+                        <i class="far fa-heart" id="icons"></i>
                         <p id="paddingTop">CREATIVE SOLUTIONS</p>
                     </div>
-                    <div class="col-lg-3 order-lg-1 text-center">
+                    <div class="col-lg-3 order-lg-4 text-center">
                         <i class="fas fa-laptop" id="icons"></i>
                         <p id="paddingTop">CREATIVE SOLUTIONS</p>
                     </div>
@@ -140,7 +138,7 @@
         <section class="container-fluid py-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 order-lg-3">
+                    <div class="col-lg-4 order-lg-1">
                         <div class="container">
                             <div class="row">
                                 <div class="col-3">
@@ -166,11 +164,11 @@
                             </div><!--/row-->
                         </div><!--/container-->
                     </div><!--/col-->
-                    <div class="col-lg-4 order-lg-1">
+                    <div class="col-lg-4 order-lg-3">
                         <div class="container">
                             <div class="row">
                                 <div class="col-3">
-                                    <i class="fas fa-heart" id="iconsOther"></i>
+                                    <i class="far fa-heart" id="iconsOther"></i>
                                     </div>
                                     <div class="col-9">
                                     <h3>Unlimited Possibilities</h3>

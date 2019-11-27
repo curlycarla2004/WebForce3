@@ -29,6 +29,11 @@ background-color:black !important;
   border-color:white;
 }
 
+.navbar-nav > li{
+margin-left: 30px;
+margin-right: 30px;
+}
+
 button{
   background-color: white !important;
 }
