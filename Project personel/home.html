@@ -10,69 +10,162 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="icofont/Icofont.css">
         <link rel="stylesheet" href="icons8/css/line-awesome.css">
+        <link rel="stylesheet" href="css/all.css">
         <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="css/style.css">
+        
 
     </head>
 
     <body> 
-        <nav class="navbar navbar-expand navbar-light bg-light">
-                <a class="navbar-brand" href="#"></a>
-                    <img src="../Project personel/images/logo1.PNG" id="logo" alt="My logo" class="src">
+        <!--Navbar with logo-->
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="../Project personel/images/logo1.PNG" id="logo" alt="My logo" class="src"></a>
+                    
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
-                  
+                    
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="home.html"><i class="la la-home"></i></i>Home <span class="sr-only">(current)</span></a>
+                        <li class="nav-item active pr-2">
+                            <a class="nav-link" href="home.html"><i class="fas fa-home pr-1"></i>Home <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html"><i class="la la-user-circle"></i>About</a>
+                        <li class="nav-item pr-2">
+                            <a class="nav-link" href="about.html"><i class="fas fa-user-circle pr-1"></i>About</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html"><i class="la la-file-alt"></i>Portfolio</a>
+                        <li class="nav-item pr-2">
+                            <a class="nav-link" href="portfolio.html"><i class="fas fa-file-alt pr-1"></i>Portfolio</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html"><i class="la la-paper-plane"></i>Contact</a>
+                        <li class="nav-item pr-2">
+                            <a class="nav-link" href="contact.html"><i class="fas fa-paper-plane pr-1"></i>Contact</a>
                         </li>
                     </ul>
                 </div>
-            
+            </div>
         </nav>
+
         
-        <header class="container-fluid py-4">
-                <div class="container py-5">
-                    <div class="container">
-                        <div class="row py-5">
-                            <h1>KARLA GERGELOVA</h1>
-                        </div>
-                    </div><!--/container-->
+     <!--Header--> <!--https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4-->
+        <header>
+            <div class="overlay"></div>
+            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                <source src="video/Time Lapse Video Of Night Sky.mp4" type="video/mp4">
+            </video>
+            <div class="container h-100">
+                <div class="d-flex h-100 text-center align-items-center">
+                    <div class="w-100 text-white">
+                        <h1 class="display-1">Karla Gergelova</h1>
+                        <p class="lead mb-0" id="title">Développeur Web et Web Mobile</p>
+                    </div>
                 </div>
+            </div>
         </header>
 
-        <section class="container-fluid py-5">
-            <div class="container">
-                <div class="row">
-                    <section class="col-12">
-                        <h3>Développeur Web & Mobile</h3>
+        <!--Portfolio-->
+        <section id="portfolio ">
+            <div class="container py-5">
+                <div class="row text-center">
+                    <section class="col-12 text-center">
+                        <h2>Portfolio</h2>
+                        <p>Quelques projets sur lesquels j'ai travaillé.</p>
                     </section>
-                </div><!--/row-->
+                
+                    <section class="col-md-4 py-3" >
+                        <div class="card">
+                            <img src="images/jesus-kiteque-wn-KYaHwcis-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">1</h5>
+                                <p class="card-text">Some quick example </p>
+                            </div>
+                        </div>
+                    </section><!--/col-4-->
+                    <section class="col-md-4 py-3" >
+                        <div class="card">
+                            <img src="images/jesus-kiteque-wn-KYaHwcis-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">2</h5>
+                                <p class="card-text">Some quick example</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="col-md-4 py-3" >
+                        <div class="card">
+                            <img src="images/jesus-kiteque-wn-KYaHwcis-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">3</h5>
+                                <p class="card-text">Some quick example</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="col-md-4 py-3" >
+                        <div class="card">
+                            <img src="images/jesus-kiteque-wn-KYaHwcis-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">4</h5>
+                                <p class="card-text">Some quick example</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="col-md-4 py-3">
+                        <div class="card">
+                            <img src="images/jesus-kiteque-wn-KYaHwcis-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">5</h5>
+                                <p class="card-text">Some quick example</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="col-md-4 py-3" >
+                        <div class="card">
+                            <img src="images/jesus-kiteque-wn-KYaHwcis-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">6</h5>
+                                <p class="card-text">Some quick example</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
             </div>
         </section>
-        
+
+
+
 
         
-       
-        <footer>
-            <div class="footer">
-                <p>Copyright © 2019 All rights reserved.</p>
-            </div>    
-        </footer>   
+            <div class="container-fluid my-5">
+                <div class="container">
+                    <div class="row">
+                    <div class="col-md-8 mx-auto">
+                        <p></p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+
+        <!--Footer-->
+        <footer class="container-fluid pt-3 pb-1 text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>Made with <span><img src="images/icons8-aime-rempli-30.png" alt="heart" class="scr"></span> and <span><img src="images/icons8-barre-de-chocolat-30.png" alt="choco" class="src"></span> par Karla Gergelova</p>
+                    </div><!--/col-->
+                    <div class="col-lg-12">
+                        <p>© 2019 tous droits réservés</p>
+                    </div><!--/col-->
+                </div><!--/row-->
+            </div><!--/container-->
+        </footer>
+
+
+        <!--Fichiers JS-->
+        <script src="js/jquery-3.4.1.js"></script> 
+        <script src="js/bootstrap.js"></script> 
+        <script src="js/script.js"></script>  
     </body>
 
 
-    
 </html>

@@ -16,36 +16,38 @@
     </head>
 
     <body> 
-        <nav class="navbar navbar-expand navbar-light bg-light">
-                <a class="navbar-brand" href="#"></a>
-                    <img src="../Project personel/images/logo1.PNG" id="logo" alt="My logo" class="src">
+        <!--Navbar with logo-->
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="../Project personel/images/logo1.PNG" id="logo" alt="My logo" class="src"></a>
+                    
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
-                  
+                    
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="home.html"><i class="la la-home"></i></i>Home <span class="sr-only">(current)</span></a>
+                        <li class="nav-item active pr-2">
+                            <a class="nav-link" href="home.html"><i class="fas fa-home pr-1"></i>Home <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html"><i class="la la-user-circle"></i>About</a>
+                        <li class="nav-item pr-2">
+                            <a class="nav-link" href="about.html"><i class="fas fa-user-circle pr-1"></i>About</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html"><i class="la la-file-alt"></i>Portfolio</a>
+                        <li class="nav-item pr-2">
+                            <a class="nav-link" href="portfolio.html"><i class="fas fa-file-alt pr-1"></i>Portfolio</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html"><i class="la la-paper-plane"></i>Contact</a>
+                        <li class="nav-item pr-2">
+                            <a class="nav-link" href="contact.html"><i class="fas fa-paper-plane pr-1"></i>Contact</a>
                         </li>
                     </ul>
                 </div>
-            
+            </div>
         </nav>
         
         <header class="container py-4 bg-dark" id="about">
             <div class="container">
                 <div class="row">
-                    <section class="col-12">
+                    <section class="col-md-12">
                         <h4>About me</h4>
                             <p>
                                 My name is Karla Gergelova.
@@ -62,12 +64,24 @@
 
         
        
-        <footer>
-            <div class="footer">
-                <p>Copyright © 2019 All rights reserved.</p>
-            </div>    
-        </footer>    
+        <!--Footer-->
+        <footer class="container-fluid pt-3 pb-1 text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>Made with <span><img src="images/icons8-aime-rempli-30.png" alt="heart" class="scr"></span> and <span><img src="images/icons8-barre-de-chocolat-30.png" alt="choco" class="src"></span> par Karla Gergelova</p>
+                    </div><!--/col-->
+                    <div class="col-lg-12">
+                        <p>© 2019 tous droits réservés</p>
+                    </div><!--/col-->
+                </div><!--/row-->
+            </div><!--/container-->
+        </footer>  
 
+        <!--Fichiers JS-->
+        <script src="js/jquery-3.4.1.js"></script> 
+        <script src="js/bootstrap.js"></script> 
+        <script src="js/script.js"></script> 
     </body>
 
 
