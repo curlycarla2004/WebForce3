@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+
+        <!--Fichiers CSS-->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/corrige.css">
+
+    </head>
+
+    <body> <!--vu mobile make first-->
+        <!--Navbar-->
+        <nav class="navbar navbar-dark bg-dark"></nav>
+            <div class="container">
+                <a class="navbar-branda" href="#">OhMyCats!</a>
+            </div>
+        </nav>
+
+        <!--Tête de chats-->
+        <header class= "container-fluid">
+            <h1>Adoptez un chat trop bon!</h1>
+        </header>
+
+        <!--Diaporama et formulaire-->
+        <section class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <section class="col-lg-9 order-lg-2"><!--to adjust to large screen and put order in order-lg-2-->
+                        <!--Diaporama-->
+                    </section>
+
+                    <!--Formulaire-->
+                    <section class="col lg-3 order-lg-1">
+                        <h2>Les chats à adopter</h2>
+                        <form action="#" method="get">
+                            <div class="form-group">
+                                <label for="chat">Choix du chat:</label>
+                                <select name="chat" id="chat" class="form-control">
+                                    <option value="">--Sélectionner un chat --</option>
+                                    <option value="sushi">Sushi</option>
+                                    <option value="maki">Maki</option>
+                                    <option value="sashimi">Sashimi</option>
+                                    <option value="yakitori">Yakitori</option>
+                                    <option value="Onigri">Onigri</option>
+                                </select>
+                            </div><!--/form group-->
+                            <div class="form-group">
+                                <label for="raison">Raison d'adoption:</label>
+                                <textarea name="raison" id="raison" placeholder="Saisissez ici les raisons pour lesquelles vous souhaitez adopter ce chat..." class="form-control"></textarea>
+                            </div>
+                            <button class = "btn btn-success w-100">Envoyer</button> <!--type n'est pas obligatorie car par defauts il est valider-->
+                        </form>
+                        <div id="envoye" class="alert alert-success" role="alert">
+                                Votre message a bien été envoyé
+                        </div>
+                    </section>
+                </div><!--/row-->
+            </div><!--/container-->
+        </section>
+
+        <!--Tête de chat-->
+        <section class = "container-fluid">
+            <div class="container">
+                <div class="row">
+                    <!--Text-->
+                    <section class="col-lg-3">
+                        <h2>Nos chats à adopter</h2>
+                        <p>
+                        Sed quid est quod in hac causa maxime homines admirentur et reprehendant meum consilium, cum ego idem antea multa decreverim, que magis ad hominis dignitatem quam ad rei publicae necessitatem pertinerent? Supplicationem quindecim dierum decrevi sententia mea. Rei publicae satis erat tot dierum quot C. Mario ; dis immortalibus non erat exigua eadem gratulatio quae ex maximis bellis. Ergo ille cumulus dierum hominis est dignitati tributus.
+                        Haec igitur prima lex amicitiae sanciatur, ut ab amicis honesta petamus, amicorum causa honesta faciamus, ne exspectemus quidem, dum rogemur; studium semper adsit, cunctatio absit; consilium vero dare audeamus libere. Plurimum in amicitia amicorum bene suadentium valeat auctoritas, eaque et adhibeatur ad monendum non modo aperte sed etiam acriter, si res postulabit, et adhibitae pareatur.     
+                        </p>
+                        <p>
+                        Sed quid est quod in hac causa maxime homines admirentur et reprehendant meum consilium, cum ego idem antea multa decreverim, que magis ad hominis dignitatem quam ad rei publicae necessitatem pertinerent? Supplicationem quindecim dierum decrevi sententia mea. Rei publicae satis erat tot dierum quot C. Mario ; dis immortalibus non erat exigua eadem gratulatio quae ex maximis bellis. Ergo ille cumulus dierum hominis est dignitati tributus.
+                        Haec igitur prima lex amicitiae sanciatur, ut ab amicis honesta petamus, amicorum causa honesta faciamus, ne exspectemus quidem, dum rogemur; studium semper adsit, cunctatio absit; consilium vero dare audeamus libere. Plurimum in amicitia amicorum bene suadentium valeat auctoritas, eaque et adhibeatur ad monendum non modo aperte sed etiam acriter, si res postulabit, et adhibitae pareatur.
+                        </p>
+                    </section>
+                    <!--Tête de chat-->
+                    <section class="col-lg-9">
+                        <img src="images/tete-chat.png" alt="tete" class="src">
+                    </section>
+                </div><!--/row-->
+            </div><!--/container-->
+        </section>
+
+        <!--Footer-->
+        <footer class="container-fluid">
+
+        </footer>
+
+
+        <!--Fichiers JS-->
+        <script src="js/jquery-3.4.1.js"></script> <!--always first-->
+        <script src="js/bootstrap.js"></script> 
+        <script src="js/corrige.js"></script>  
+    </body>
+
+</html>
