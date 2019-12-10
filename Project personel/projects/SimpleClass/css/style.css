@@ -1,0 +1,39 @@
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #0099ff;
+    color: white !important; 
+    }
+
+.navbar-nav .active{
+      background-color: #0099ff;/* we can also write #09f if we have two letters or numbers in a row*/
+      
+  }
+
+.navbar-light .navbar-nav .active > .nav-link{
+      color: white;
+  }
+
+.navbar-light .navbar-nav .nav-link{
+    color:#0099ff;
+}
+/*on sélectionne la balise header qui sui(that follows)
+ directement la balise nav*/
+nav + header{
+    background-color:#f3f3f3;
+}
+.img-thumbnail{
+    box-shadow: 0 0 3px #999;
+    /* 1 value- value horizontal, 2 value - vertical, 3 value-diffusion of the color around the whole image, 4 value-the way the color is diffused plus you need to add color.....we can also add multiple colors*/
+}
+
+.form-group{
+    padding: 15px;
+    margin-top: 27px;
+    margin-bottom: 27px;
+    }
+
+.navbar-nav > li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+

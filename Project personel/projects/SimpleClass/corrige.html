@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Responsive Template</title>
+
+    <!--Fichiers CSS-->
+    <link rel="stylesheet" href="../test 06.11/css/bootstrap.css">
+    <link rel="stylesheet" href="../test 06.11/css/style.css">
+    <!--there is a priority in the order so our fichiers css should be the last to be added so it takes affect-->
+    
+</head>
+   
+
+<body> 
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <!--open navbar et apres open a container-->
+            <a class="navbar-brand" href="#">
+                <img src="../test 06.11/images/basic-logo.svg" alt="Logo de l'entreprise" class="src"><!--.svg are images vectoriel so the images stay the same without deformation, alt atttributes are obligatoire avec img-->
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+
+        <div class="collapse navbar-collapse"id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home page <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Internal page demo</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#">menu item 3</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#">menu item 4</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#">menu item 5</a>
+                </li>
+                
+      
+        </div><!--/container-->
+    </nav>
+
+    <header class="container-fluid py-5">
+        <div class="container">
+            <div class="row">
+                <section class="col-5">
+                    <h1>Simple Responsive Template</h1>
+                    <p> <!--write "lorem" and we will got the text-->
+                     ...is a template for responsive web design. A small set of tools and best practices that allows web designers to build responsive websites faster. Websites built with Simple Responsive Template will be optimiwed for screen widths between 320px abd anything. Resive your browser to check it out.
+                    </p>
+                    <a href="" class="btn btn-primary">CALL TO ACTION</a>
+                    <a href="" class="btn btn-primary">ONE MORE</a>
+                </section><!--/col-5-->
+
+                <section class="col-7">
+                    <figure class="img-thumbnail">
+                        <img class="img-fluid" src="../test 06.11/images/basic-pic2.jpg"  alt="Beach" style="width:100%">
+                        <figcaption>El Arco Cabo Mexico. </figcaption>
+                    </figure>
+                </section><!--/col-7-->
+
+            </div><!--/row-->
+        </div><!--/container-->
+    </header>
+
+
+    <section class="container">
+        <div class="row py-5" >
+           <article class="col-4">
+               <h2>Brazil!</h2>
+                <img class="w-100" src="../test 06.11/images/basic-pic1.jpg" alt="brazil">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariature. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+           </article><!--/col-4-->
+
+           <article class="col-4">
+                <h2>Mexico!</h2>
+                <img class="w-100" src="../test 06.11/images/basic-pic2.jpg" alt="mexico">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariature. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </article><!--/col-4-->
+
+            <article class="col-4">
+                    <h2>Brazil!</h2>
+                    <img class="w-100" src="../test 06.11/images/basic-pic3.jpg" alt="US">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariature. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </article><!--/col-4-->
+     
+        </div><!--/row-->
+
+        <div class="row m-0">
+            <div class="col-12 p-0">
+                <h2>Columns Demo</h2>
+            </div>
+            <div class="col-12 border text-center">12</div>
+            <!--div.border.col-1.text-center{1}+div.border.col-11.text-center{11}-->
+            <div class="col-1 border text-center">1</div>
+            <div class="col-11 border text-center">11</div>
+            <div class="col-2 border text-center">2</div>
+            <div class="col-10 border text-center">10</div>
+            <div class="col-3 border text-center">3</div>
+            <div class="col-9 border text-center">9</div>
+            <div class="col-4 border text-center">4</div>
+            <div class="col-8 border text-center">8</div>
+            <div class="col-5 border text-center">5</div>
+            <div class="col-7 border text-center">7</div>
+            <div class="col-6 border text-center">6</div>
+            <div class="col-6 border text-center">6</div>
+            <div class="col-4 border text-center">4</div>
+            <div class="col-4 border text-center">4</div>
+            <div class="col-4 border text-center">4</div>
+            <div class="col-1 border text-center">1</div>
+            <div class="col-2 border text-center">2</div>
+            <div class="col-3 border text-center">3</div>
+            <div class="col-3 border text-center">3</div>
+            <div class="col-3 border text-center">3</div>
+        </div> 
+
+    </section><!--/container-->
+      
+            <!-- Footer -->
+    <footer class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <!-- " div.row>div.col-12 "you can only write this to have 2 columns-->
+                <div class="col-12">
+                    <p>Footer Stuff</p> 
+                </div>
+            </div>
+        </div><!--/container-->   
+    </footer>
+    
+    <!--Fichiers JS-->
+    <script src="js/jquery-3.4.1.js"></script> <!--jquery is always first before bootstrap!!!!!-->
+    <script src="js/bootstrap.js"></script>
+
+
+</body> 
+
+</html>
