@@ -105,5 +105,33 @@ h1{
   }
 }
 
+p.card-text{
+  font-size: 0.8em;
+}
 
+h5{
+  background-color: black;
+  color: white;
+  padding-bottom: 10px;
+}
 
+h3{
+  padding: 10px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 4em;
+  text-shadow: black;
+}
+
+h2{
+  font-family: 'Amatic SC', cursive;
+  font-size: 4em;
+  text-shadow: black;
+}
+
+.card-title {
+  margin-bottom: 0rem;
+}
+
+#about{
+  color:white;
+}
