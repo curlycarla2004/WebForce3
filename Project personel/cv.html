@@ -47,17 +47,27 @@
         
         <main class="container">
             <div class="container" id="backgroundCV">
-                <section class="CV">
-                    <div class="row pb-5 pt-3">
-                        <section class="col-md-12 text-center">
-                            <h3>Mon CV</h3>
-                        </section>
-                        <section class="col-md-12 text-center">
-                            <img src="images/CV.png" target="_blank" alt="cv" id="cv" style= "width:70%">
-                        </section>
-                    </div>
-                </section>
-            </div>
+                <div class="row rounded-lg justify-content-center px-md-4">
+                    <section class="col-md-12 text-center">
+                        <h3>Mon CV</h3>
+                    </section><!--/col-12-->
+                    <section class="col-12 d-md-none mb-3 text-center">
+                        <a href="images/CV.png" target="_blank" alt="cv" id="cv" style= "width:70%">
+                            <img class="w-100" src="images/CV.png" alt="Mon CV">
+                        </a>
+                    </section><!--/col-12 ne s'affiche que sur phone-->
+                    <section class="col-12 d-none d-md-block mb-3 text-center">
+                        <a href="images/CV.png" target="_blank">
+                            <img class="w-50" src="images/CV.png" alt="Mon CV">
+                        </a>
+                    </section><!--/col-12 ne s'affiche que sur grand écran-->
+                    <section class="col-12 d-none d-md-block mt-3 mt-md-5 mb-4 text-center">
+                        <p class="my-0">
+                            <a href="docs/Karla Gergelova CV.pdf" download="Karla_Gergelova_CV" class="CV">Télécharger Mon CV <img src="images/icons8-téléchargements-30.png" alt="download"></a>
+                        </p>
+                    </section><!--/col-12 ne s'affiche que sur grand écran-->
+                </div><!--/row-->
+            </div><!--/container-->
        </main>
 
 

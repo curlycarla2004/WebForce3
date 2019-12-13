@@ -97,9 +97,10 @@ h1{
 }
 
  @media (pointer: coarse) and (hover: none) {
-  header {
+  header .overlay{
     background: url('https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80') black no-repeat center center scroll; /*https://source.unsplash.com/XT5OInaElMw/1600x900*/
-   }
+   opacity: 0;
+  }
   header video {
     display: none;
   }
@@ -151,3 +152,46 @@ h2{
       background-size: cover;
   }
 }*/
+
+.mb-5{
+  padding-bottom: 3rem !important;
+}
+
+/* .col-12{
+  flex: 0 0 100%;
+  max-width: 100%;
+} */
+
+.CV{
+  color: black !important;
+  font-weight: bold;
+}
+
+#contact{
+  /* background-color: #000000; */
+  color: white;
+  text-shadow: 2px black !important;
+  background-image: url(../images/smoke.jpg);
+  height:400px;
+  width:600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 2px 2px 4px #000000;
+  
+}
+ 
+#linkedin{
+  color:white !important;
+}
+
+.lead{
+  font-weight:bold;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+a{
+  text-shadow: 2px 2px 4px #000000;
+  color: white;
+}
+
+
