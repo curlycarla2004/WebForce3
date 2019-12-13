@@ -199,3 +199,57 @@ a{
   color: black !important; 
   }
 
+  #cats {
+    /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15); */
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  #cats:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  }
+
+  #multi {
+    /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15); */
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  #multi:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  }
+
+  #Decompte {
+    /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15); */
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  #Decompte:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  }
+
+  #SimpleHome {
+    /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15); */
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  #SimpleHome:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  }
+
+  #SimpleClass {
+    /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15); */
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  #SimpleClass:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  }
+
+  #RentAcar {
+    /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15); */
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  #RentAcar:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  }
+
