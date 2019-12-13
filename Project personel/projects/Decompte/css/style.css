@@ -39,6 +39,7 @@ position: absolute;
     margin-left: 0;
     color: white;
     padding: 10px;
+    
 }
 
 #days, #hours, #minute, #seconds{
@@ -46,4 +47,6 @@ position: absolute;
     margin-left: 0;
     color: #4267b2;
     padding: 10px;
+    display: inline-block;
 }
+
