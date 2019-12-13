@@ -194,4 +194,8 @@ a{
   color: white;
 }
 
+.navbar a:hover {
+  background-color: white;
+  color: black !important; 
+  }
 

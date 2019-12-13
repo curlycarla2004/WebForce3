@@ -1,7 +1,7 @@
 
 
 .diaporama {
-    height: 63vh;
+    height: 50vh;
     min-height: 500px;
     background-image: url('../images/background.png');
     background-size: cover;
@@ -62,3 +62,4 @@
     opacity: 0.9;
     padding: 0.5em;
 }
+
