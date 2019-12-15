@@ -153,13 +153,13 @@ h2{
   background-size: cover;
   text-shadow: 2px 2px 4px #000000;
   max-width: 100%; 
-  height: 100%;
-  
+  height: 100%; 
 }
  
-#linkedin{
-  color:white !important;
+a:hover{
+  color: black;
 }
+
 
 .lead{
   font-weight:bold;
