@@ -14,66 +14,79 @@
     </head>
 
     <body>
-        <!--background picture with text and bar with dates of location and hamburger menu-->
-        <div class="diaporama">
-            <!--navbar-->
-            <section class="container-fluid px-0">
-                <nav class="navbar navbar-collapse-lg navbar-light bg-transparent">
-                    <a class="navbar-brand" href="#"></a>
-                    <button class="navbar-toggler bg-light" id="navbarButton" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    
-                    <div class="collapse navbar-collapse bg-light p-3" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Louer une voiture</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Louer un utilitaire</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Réserver un chauffeur</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Découvez nos agences</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Mon compte</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                </nav>
-            </section><!--/navbar-->
-
-            <!--text-->
-            <section class="container h-50 text-white">
-                <div class="row h-50 align-items-center">
-                    <div class="col-12 text-center">
-                        <h1 class="font-weight-light" id="bold">Bienvenue à bord</h1>
-                        <p class="lead">Location de voiture 24h/24 et 7j/7</p>
-                    </div><!--/col-->
-
-                    <div class="col-lg-3" id="bar">
-                        <button type="button" class="btn btn-light" id="buttonAdressse">Adresse de départ <span><i class="fas fa-sort-down" id="arrowDown"></i></span></button>
-                    </div><!--/col-->
-                    <div class="col-lg-3" id="bar">
-                        <button type="button" class="btn btn-light" id="buttonAdressse">Début de location <span><i class="fas fa-calendar-alt" id="arrowDown"></i></span></button>
-                    </div>
-                    <div class="col-lg-3" id="bar">
-                        <button type="button" class="btn btn-light" id="buttonAdressse">Fin de location <span><i class="fas fa-calendar-alt" id="arrowDown"></i></span></button>
-                    </div>
-                    <div class="col-lg-3" id="barValider">
-                        <button type="button"  class="btn btn-success" id="buttonAdressse">Valider ma recherche</button>
-                    </div>
-
-                </div><!--/row-->
-            </section><!--/container-->
-
-
-
-
+        <!--Navbar-->
+        <nav class="navbar navbar-light bg-transparent fixed-top px-0">
+			<button class="navbar-toggler ml-auto mr-3" type="button" data-toggle="collapse" data-target="#maNavbar" aria-controls="maNavbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse mt-2" id="maNavbar">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Louer une voiture</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Louer un utilitaire</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Réserver un chauffeur</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Découvrir nos agences</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Mon Compte</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact</a>
+					</li>
+				</ul>
+			</div>
+        </nav>
+        
+        <!--Bienvenue à bord container-->
+		<header class="container-fluid">
+			<section class="container">
+				<div class="row justify-content-center">
+					<div id="titre" class="col-12 text-center">
+						<h1>Bienvenue à bord</h1>
+						<p>Location de voiture 24h/24 et 7j/7</p>
+					</div>
+					<div id="form" class="col-12">
+						<form class="form-inline">
+						    <div class="form-group py-1 pl-2">
+						    	<select class="custom-select" id="adresse">
+						    		<option selected>Adresse de départ</option>
+			        				<option>Paris</option>
+			        				<option>Lyon</option>
+			        				<option>Marseille</option>
+						    	</select>
+						    </div>
+						    <div class="form-group py-1">
+							    <div class="input-group" id="datetimepicker1">
+									<div class="input-group">
+									 	<input type="text" class="form-control" placeholder="Début de location">
+									  	<div class="input-group-append">
+									    <span class="input-group-text" id="basic-addon2"><i class="fas fa-calendar-alt"></i></span>
+									  	</div>
+									</div>
+	           					</div>
+	           				</div>
+						    <div class="form-group py-1">
+							    <div class="input-group" id="datetimepicker1">
+									<div class="input-group">
+									 	<input type="text" class="form-control" placeholder="Fin de location">
+									  	<div class="input-group-append">
+									        <span class="input-group-text" id="basic-addon2"><i class="fas fa-calendar-alt"></i></span>
+									  	</div>
+									</div><!--/input-group-->
+	           					</div><!--/datetimepicker1-->
+	           				</div><!--/form-group-->
+					    	<button type="submit" class="btn btn-success">Valider ma recherche</button>
+						</form><!--form_inline-->
+					</div><!--/col-12-->
+				</div><!--/row-->			
+			</section><!--/container-->
+		</header>
 
         <!--7résultat-->
         <section class="container-fluid" id="resultat">
